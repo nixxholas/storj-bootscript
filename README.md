@@ -3,7 +3,7 @@ Get an Ubuntu 16.04 LTS Server from 0 to Storj Storage Node quickly with a scrip
 
 ### Simply execute this command
 ```
-wget https://raw.githubusercontent.com/nixxholas/storj-bootscript/master/setup.sh
+wget https://raw.githubusercontent.com/nixxholas/storj-bootscript/master/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 
