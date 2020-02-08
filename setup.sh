@@ -1,8 +1,10 @@
-apt install -y unzip zip curl apt-transport-https \
+apt install -y unzip zip screen apt-transport-https \
     ca-certificates \
     curl \
     gnupg-agent \
     software-properties-common
+
+screen -S keygen
     
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 apt-key fingerprint 0EBFCD88
